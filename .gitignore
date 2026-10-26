@@ -1,0 +1,60 @@
+# --- Secrets -----------------------------------------------------------------
+.env
+.env.*
+!.env.example
+secrets/
+api_key
+service_account.json
+.streamlit/secrets.toml
+
+# --- Runtime data ------------------------------------------------------------
+# Uploaded books, generated audio/video, presentations, embeddings index, etc.
+data/
+*.pkl
+*.pptx
+*.ppt
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.srt
+*.rar
+*.zip
+*.7z
+*.log
+
+# --- Legacy code kept locally only ------------------------------------------
+.legacy/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Tooling -----------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Editors / OS ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Fonts -------------------------------------------------------------------
+# Keep proprietary font files out of the public repository. The app resolves
+# fonts from the operating system when these files are absent.
+assets/fonts/*.ttf
+assets/fonts/*.otf

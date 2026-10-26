@@ -1,0 +1,43 @@
+# Core web application
+streamlit==1.35.0
+streamlit-option-menu==0.3.13
+
+# Configuration and persistence
+python-dotenv==1.0.0
+pymongo==4.6.3
+
+# LLM, embeddings, and retrieval
+openai==0.27.0
+langchain==0.0.184
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+InstructorEmbedding==1.0.1
+
+# Speech synthesis and transcription
+torch==2.2.1
+transformers==4.38.0
+datasets==2.14.7
+soundfile==0.12.1
+openai-whisper==20231117
+
+# Video and audio
+moviepy==1.0.3
+pydub==0.25.1
+opencv-python==4.8.0.76
+
+# Documents and images
+PyMuPDF==1.24.0
+python-pptx==0.6.23
+Pillow==10.0.0
+pysrt==1.1.2
+bing-image-urls==0.1.5
+requests==2.31.0
+
+# Google Drive
+google-api-python-client==2.126.0
+google-auth==2.29.0
+
+# Shared utilities
+numpy==1.26.4
+nltk==3.8.1
+tqdm==4.65.0

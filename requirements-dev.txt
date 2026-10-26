@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Development tools
+ruff==0.2.2
